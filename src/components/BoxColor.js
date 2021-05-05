@@ -11,6 +11,7 @@ class BoxColor extends Component {
           backgroundColor: `rgb(${r}, ${g}, ${b})`,
           width: '400px',
           height: '40px',
+          border: '1px black solid',
         }}
       >
         <p>

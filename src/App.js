@@ -10,7 +10,7 @@ import CreditCard from './components/CreditCard';
 function App() {
   return (
     <div>
-      {/* <IdCard
+      <IdCard
         lastName="Doe"
         firstName="John"
         gender="male"
@@ -26,17 +26,18 @@ function App() {
         height={172}
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
-      /> */}
-      {/* <Greetings lang="de">Ludwig</Greetings>
-      <Greetings lang="fr">François</Greetings> */}
-      {/* <Random min={1} max={6}>
+      />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
+      <Random min={1} max={6}>
         3
       </Random>
       <Random min={1} max={100}>
         45
-      </Random> */}
-      {/* <BoxColor r={255} g={0} b={0} />
-      <BoxColor r={128} g={255} b={0} /> */}
+      </Random>
+
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
 
       <CreditCard
         type="Visa"
